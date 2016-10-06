@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Siddhant Parkar</title>   
+</head>
+<!-- =================================================================================================================================================================================================== -->
+
+<nav class = "navbar navbar-fixed-top" id ="navbar">
+  <div class = "container-fluid">
+    <div class = "navbar-header">
+      <a class = "navbar-brand" href = "#" onMouseover="this.style.color='silver';" onMouseout="this.style.color='white';">SP</a>
+    </div>
+    <ul class = "nav navbar-nav">
+      <li><a href = "#home" onMouseover="this.style.color='silver';" onMouseout="this.style.color='white';"> Home </a><li>
+      <li><a href = "#about" onMouseover="this.style.color='silver';" onMouseout="this.style.color='white';"> About </a><li>
+      <li><a href = "#work" onMouseover="this.style.color='silver';" onMouseout="this.style.color='white';"> Work </a><li>
+      <li><a href = "#education" onMouseover="this.style.color='silver';" onMouseout="this.style.color='white';"> Education </a><li>
+      <li><a href = "#contact" onMouseover="this.style.color='silver';" onMouseout="this.style.color='white';"> Contact Me </a><li>
+    </ul>
+  </div>
+</nav>
+
+<!-- =================================================================================================================================================================================================== -->
+
+<!-- Home tab start -->
+<div class = "container-fluid" id = "home">
+  <div class = "row">
+    <div class = "col-xs-12 text-center">
+      <img id = "main-image" class = "white-border img-responsive center-block" src = "http://res.cloudinary.com/siddparkar/image/upload/v1469291740/12374918_10153802181154146_2920224760988569238_o_ijfj9e.jpg" onMouseover="src = 'http://res.cloudinary.com/siddparkar/image/upload/v1473116695/cat_w6grvt.jpg'" onMouseout="src='http://res.cloudinary.com/siddparkar/image/upload/v1469291740/12374918_10153802181154146_2920224760988569238_o_ijfj9e.jpg'"alt = "" />
+      <div id ="myname">
+      <h1 class = "font" id="home-title-name" >Siddhant Parkar</h1>
+    </div>
+      <ul id = "awesome">
+        <li><a href="https://www.facebook.com/siddparkar" target="self"><i class="fa fa-facebook-square fa-4x"></i><a></li>
+        <li><a href="https://www.linkedin.com/in/siddparkar" target="self"><i class="fa fa-linkedin fa-4x"></i></a></li>
+        <li><a href="https://twitter.com/siddparkar" target="self"><i class="fa fa-twitter fa-4x"></i></a></li>
+        <li><a href="https://github.com/siddparkar" target="self"><i class="fa fa-github fa-4x"></i></a></li>
+      </ul>
+    <h2>
+
+        <p id ="notice" onMouseover="expand();">This is a really primitive example of my programming skills. I do not find the necessary time to update this site because of my full time internship. Please check my linkedIn and GitHub for latest news on what I'm doing!</p>
+      
+      <div id = "JSButton">
+        <button class = "btn btn-default target text-primary" onclick="document.getElementById('notice').innerHTML = 'Drop me an email at siddparkar@gmail.com to get in touch!';">Click Me!</button>
+      </div>
+    </h2>
+    </div>
+  </div>
+</div>
+<!-- Home tab end -->
+
+
+<!-- =================================================================================================================================================================================================== -->
+
+<!-- About tab start -->
+<div class = "container-fluid font" id = "about">
+  <h1 class="section-header text-center">Who am I?</h1>
+  <div class = "row">
+
+    <div class="container" style="padding-top: 60px">
+    <div class="row portfolio">
+<div class="container-fluid">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class = "text-center well text-warning">
+          <h1>My Job</h1>
+          <p>
+            <h2><ul>
+              <li>IT Graduate Student worker at Stevens Institute of Technology</li>
+              <li>Provide Tech Support to School of Systems and Enterprises</li>
+              <li>Work as a web developer for Systems Engineering Research Center</l1>
+                          </ul> </h2>
+          </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class = "text-center well text-warning">
+          <h1>My School</h1>
+          <p>
+            <h2><ul>
+              <li>Master of Science in Computer Science</li>
+              <li>Love front end, but want to be a master of Full Stack</li>
+              <li>JavaScript, Java, SQL, HTML, CSS and some PHP</li>
+                           </ul></h2>
+          </p>
+        </div>
+      </div>
+    
+      <div class="item ">
+        <div class = "text-center well text-warning">
+          <h1>My Hobbies</h1>
+          <p>
+            <h2><ul>
+              <li>I love coding</li>
+              <li>A close second is cooking. Massive foodie. Yeah, not a pun</li>
+              <li>Not enough books in the world to satisfy the reader in me</li>
+                          </ul> </h2>
+          </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class = "text-center well text-warning">
+          <h1>My Goals</h1>
+          <p>
+            <h2>
+              <ul>
+              <li>Become a full stack developer</li>
+              <li>Buy the E Class AMG</li>
+              <li>Visit every continent on earth in the next 10 years</li>
+                         
+               </ul> </h2>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+       
+
+    </div>
+      <!-- thumbnails-->
+    </div>
+  </div>
+</div>
+<!-- About tab end -->
+
+<!-- =================================================================================================================================================================================================== -->
+
+<!-- Work tab start -->
+<div class="container-fluid font" id="work">
+  <h1 class="section-header text-center">What have I worked on?</h1>
+  <div class="row">
+
+    <div class="container" style="padding-top: 60px">
+    <div class="row portfolio">
+
+<!-- div tags start here for container 1-->
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <img class="img-responsive" src="http://res.cloudinary.com/siddparkar/image/upload/v1470929106/Screenshot_66_hufv5f.png" alt="1" data-toggle="modal" data-target="#myModal1">
+        <h3 class = "text-warning text-center">Inventory Managment System for Stevens</h3>
+        <h6 class = "text-primary text-center">(click pic!)</h6>
+      </div>
+    </div>
+    <!-- div tag start here for container 1-->
+
+    <!-- div tags start here for container 2-->
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <img class="img-responsive" src="http://res.cloudinary.com/siddparkar/image/upload/v1470929106/Screenshot_67_crfdou.png" alt="2" data-toggle="modal" data-target="#myModal2">
+        <h3 class = "text-warning text-center">siddparkar.com</h3>
+        <h6 class = "text-primary text-center">(click pic!)</h6>
+      </div>
+    </div>
+    <!-- div tags start here end container 2-->
+
+    <!-- div tags start here for container 3-->
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <img class="img-responsive" src="http://res.cloudinary.com/siddparkar/image/upload/v1470929106/Screenshot_68_lovudj.png" alt="3" data-toggle="modal" data-target="#myModal3">
+        <h3 class = "text-warning text-center">Paperless</h3>
+        <h6 class = "text-primary text-center">(click pic!)</h6>
+      </div>
+    </div>
+    <!-- div tag start here for container 3-->
+
+    <!-- div tags start here for container 4-->
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <img class="img-responsive" src="http://res.cloudinary.com/siddparkar/image/upload/v1470929106/Screenshot_69_l8pms8.png" alt="4" data-toggle="modal" data-target="#myModal4">
+        <h3 class = "text-warning text-center">iLaundromat</h3>
+        <h6 class = "text-primary text-center">(click pic!)</h6>
+      </div>
+    </div>
+    <!-- div tags start here end container 4-->
+      <!-- thumbnails-->
+
+    </div>
+ <!-- Modal 1 -->
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title text-primary" id="myModalLabel">Inventory Managment System for Stevens</h4>
+        </div>
+        <div class="modal-body well text-primary">
+            <ul><li>Work as student IT worker at Stevens Institute of Technology</li>
+              <li>Developing an inventory management system for the softwares purchased by the University</li>
+              <li>Backend being developed in PHP with MySQl</li>
+              <li>Using Javascript libraries for the UI</li></ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- modal 1 div tags end here-->
+
+    <!-- Modal 2 -->
+  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title " id="myModalLabel">siddparkar.com</h4>
+        </div>
+        <div class="modal-body well text-primary">
+          <ul><li>Coded this portfolio from scratch without major templating</li>
+              <li>Goal is to make website Full Stack</li>
+              <li>Used loads of HTML5 and Custom CSS3</li>
+              <li>Liberally indulged in Bootstrap and jQuery</li></ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+     <!-- Modal 3 -->
+  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title text-primary" id="myModalLabel">Paperless</h4>
+        </div>
+        <div class="modal-body well text-primary">
+            <ul><li>Web Application for Job Seekers</li>
+              <li> Academic Project for Web Programming Course</li>
+              <li> Implement front end in JS, Bootstrap</li>
+              <li> Used Node.js, Express and MongoDB for backend</li></ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- modal 3 div tags end here-->
+
+    <!-- Modal 4 -->
+  <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title " id="myModalLabel">iLaundromat</h4>
+        </div>
+        <div class="modal-body well text-primary">
+          <ul><li> Laundry app</li>
+              <li> Academic Project for Human Computer Interaction Course</li>
+              <li> Implemented front end in JS and CSS3</li>
+              <li> Used PHP and MySQL for backend</li></ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+      <!--modals -->  
+    
+    </div>
+  </div>
+</div>
+<!-- Work tab end -->
+
+<!-- =================================================================================================================================================================================================== -->
+
+
+<!-- Education tab start -->      
+<div class = "container-fluid font" id = "education">
+  <h1 class="section-header text-center">Where do I study?</h1>
+  <div class = "row">
+
+   <div class="container" style="padding-top: 60px">
+    <div class="row portfolio">
+
+    <!-- div tags start here for container 1-->
+    <div class="col-md-6">
+      <div class="thumbnail" id= "stevens">
+        <img class="img-responsive" src="http://res.cloudinary.com/siddparkar/image/upload/v1469457308/stevens_hyy49j.jpg" alt="Stevens Institute of Technology" data-toggle="modal" data-target="#myModal1" id="stevens-edu-pic">
+        <h3 class = "text-warning text-center">Stevens Institute of Technology</h3>
+        <h6 class = "text-primary text-center">(click pic!)</h6>
+      </div>
+    </div>
+    <!-- div end start here for container 1-->
+
+    <!-- div tags start here for container 2-->
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <img class="img-responsive" src="http://res.cloudinary.com/siddparkar/image/upload/v1469457307/mu_gggpay.jpg" alt="Mumbai University" data-toggle="modal" data-target="#myModal2">
+        <h3 class = "text-warning text-center">Mumbai University</h3>
+        <h6 class = "text-primary text-center">(click pic!)</h6>
+      </div>
+    </div>
+    <!-- div tags start here end container 2-->
+
+  </div>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title text-primary" id="myModalLabel">Stevens Institute of Technology</h4>
+        </div>
+        <div class="modal-body well text-primary">
+            <ul><li> Currently I'm a grad student at Stevens</li>
+              <li>Focused on Web Development</li>
+              <li>Fond of SW development</li>
+              <li>Dabbled in a bit of Database too!</li></ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- modal 1 div tags end here-->
+
+    <!-- Modal 2 -->
+  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title " id="myModalLabel">Mumbai university!</h4>
+        </div>
+        <div class="modal-body well text-primary">
+          <ul><li>Did my Bachelors at Atharva College of Engineering</li>
+              <li>It is affiliated to University of Mumbai</li>
+              <li>Studied Computer Engineering here</li>
+              <li>Did a lot of Java here</li></ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- modal 2 div tags end here-->
+
+   </div>
+
+   <!-- -->
+  </div>
+</div>
+
+<!-- Education tab end -->  
+
+<!-- =================================================================================================================================================================================================== -->
+      
+<!-- Contact tab start -->  
+<div class = "container-fluid font" id = "contact">
+  <h1 class="section-header text-center">You can reach me on</h1>
+  <div class = "row">
+
+    <div class="container" style="padding-top: 60px">
+    <div class="row portfolio well text-primary">
+
+
+       <h2>To check me out on social media, the best way would be by navigating to the home page and clicking all those fancy Font Awesome icons
+      <p> Click this <button class = "btn btn-default target text-primary" id = "target1"><a href = "#home"> BUTTON</a></button> to go to home page. Or fill in the following form with your information to contact me(It's not yet functional)
+      </p>
+    </h2>
+    </div>
+
+    <form>
+      <div class = "form-group">
+        <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" class= "form-control">
+      </div>
+
+
+      <div class = "form-group">
+        <label for="last_name">Last Name:</label> 
+            <input type="text" id="last_name" class= "form-control">
+        </div>
+
+    <div class = "form-group">
+        <label for="company_name">Company Name:</label>
+            <input type="text" id="company_name" class= "form-control">
+        </div>
+
+    <div class = "form-group">
+        <label for="email">Email Address:</label>
+            <input type="email" id="email" class= "form-control">  
+        </div>
+
+    <div class = "form-group">
+        <label for="number">Phone Number:</label>
+            <input type="text" id="number" class= "form-control">
+        </div>
+     
+    <div class="form-group">
+      <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="3"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div> 
+  </div>
+  
+</div>
+<!-- Contact tab end --> 
+
+<!-- =================================================================================================================================================================================================== -->
+
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script language="JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script language="JavaScript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script language="JavaScript" type="text/javascript" src="test.js"></script>
+
+</html>
